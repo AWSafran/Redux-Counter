@@ -12,9 +12,15 @@ export const DECREMENT = 'DECREMENT';
 export const increment = () => {
   console.log("Made it to increment function");
   // Fill in this function
+  return{
+    type: INCREMENT
+  }
 };
 
 export const decrement = () => {
   console.log("Made it to decrement function");
   // Fill in this function
+  return{
+    type: DECREMENT
+  }
 };
